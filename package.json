@@ -1,0 +1,20 @@
+{
+  "name": "bootcamp-rwc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run:electron": "npx cypress run --browser electron",
+    "cy:run:chrome": "npx cypress run --browser chrome --headless",
+    "cy:run:firefox": "npx cypress run --browser firefox --headless",
+    "cy:run:edge": "npx cypress run --browser edge --headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "5.3.0",
+    "faker": "^5.1.0"
+  },
+  "dependencies": {}
+}
