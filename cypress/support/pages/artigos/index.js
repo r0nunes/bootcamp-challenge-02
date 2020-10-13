@@ -5,6 +5,8 @@ import Routes from '../../routes'
 const faker = require ('faker')
 const el = require('./elementos').ELEMENTS
 
+var ArticleTitle = faker.lorem.words(2)
+
 class Artigos { 
 
     acessarFormularioDeNovaPublicacao() { 
@@ -12,7 +14,7 @@ class Artigos {
     }
 
     preencherFormulario() { 
-        cy.get(el.inputTitle).type('Agilizei Title');
+        cy.get(el.inputTitle).type(ArticleTitle);
         cy.get(el.inputDescription).type('Cypress Bootcamp');
         cy.get(el.textAreaContent).type(faker.lorem.paragraph());
         cy.get(el.inputTags).type('cypress');
@@ -36,8 +38,11 @@ class Artigos {
         cy.wait(`@${Routes.as.getArticlesTitleComments}`).then((getArticlesTitleCommentsResponse) => { 
             expect(getArticlesTitleCommentsResponse.status).to.eq(200)
         });
+
+        cy.get(el.postTitle).should('contain',ArticleTitle);
     }
-   
+
+    
 }
 
 export default new Artigos();

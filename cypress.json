@@ -4,7 +4,8 @@
     "apiUrl": "https://conduit.productionready.io/api/",
     "user": { 
         "email": "agilizei-rwc@mail.com",
-        "password": "12345678"
+        "password": "12345678",
+        "username": "Agilizei RWC"
     },
     "reporter": "junit",
     "reporterOptions": { 
