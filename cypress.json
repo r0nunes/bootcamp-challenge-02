@@ -10,5 +10,4 @@
     "reporterOptions": { 
         "mochaFile": "cypress/reports/junit-[hash].xml"
     }
-    
 }
