@@ -8,7 +8,7 @@
     },
     "reporter": "junit",
     "reporterOptions": { 
-        "mochaFile": "cypress/reports/junit-[hasg].xml"
+        "mochaFile": "cypress/reports/junit-[hash].xml"
     }
     
 }
