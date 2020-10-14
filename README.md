@@ -33,10 +33,12 @@ Para executar o projeto:
 - Clonar o repositório
 - Dentro da raiz do projeto, executar o comando abaixo:
 `npm install`
+
 - Após o término, executar o comando:
--- Para electron: `npm run cy:run:electron`
--- Para chrome: `npm run cy:run:chrome`
--- Para firefox: `npm run cy:run:firefox`
+
+- Para electron: `npm run cy:run:electron`
+- Para chrome: `npm run cy:run:chrome`
+- Para firefox: `npm run cy:run:firefox`
 
 Lembrando que a execução acima é feita em modo headless, ou seja, não teremos visão da interface gráfica nessa situação. 
 
