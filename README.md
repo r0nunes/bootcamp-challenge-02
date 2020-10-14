@@ -44,12 +44,21 @@ Lembrando que a execução acima é feita em modo headless, ou seja, não teremo
 
 Após o término da execução, é possível visualizar os videos no repositório cypress/videos.
 
+- Login
+![](cypress/videos/login.spec-js.mp4)
+
+- Cadastro
+![](cypress/videos/cadastro.spec-js.mp4)
+
+- Artigos
+![](cypress/videos/artigos.spec-js.mp4)
+
 # Azure DevOps Pipeline + Reports
 
 O projeto está configurado para rodar em uma pipeline da azure. 
 
-Para visualizar a pipeline, acesse: https://dev.azure.com/ronunes0342/Agilizei%20Bootcamp%2002/_build/results?buildId=7&view=results
+- https://dev.azure.com/ronunes0342/Agilizei%20Bootcamp%2002/_build/results?buildId=7&view=results
 
-
+![azure](https://user-images.githubusercontent.com/20997661/95932641-c66fa280-0da2-11eb-8bec-821b2fcf5d46.png)
 
 
