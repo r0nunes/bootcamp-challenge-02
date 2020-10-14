@@ -45,13 +45,16 @@ Lembrando que a execução acima é feita em modo headless, ou seja, não teremo
 Após o término da execução, é possível visualizar os videos no repositório cypress/videos.
 
 - Login
-![](cypress/videos/login.spec-js.mp4)
+
+![login gif](https://user-images.githubusercontent.com/20997661/95933181-5104d180-0da4-11eb-9530-6f55b092724c.gif)
 
 - Cadastro
-![](cypress/videos/cadastro.spec-js.mp4)
+
+![cadastro gif](https://user-images.githubusercontent.com/20997661/95933317-a0e39880-0da4-11eb-88e0-13819aca292c.gif)
 
 - Artigos
-![](cypress/videos/artigos.spec-js.mp4)
+
+![artigos gif](https://user-images.githubusercontent.com/20997661/95933312-9fb26b80-0da4-11eb-8c1a-40e6e88c6571.gif)
 
 # Azure DevOps Pipeline + Reports
 
